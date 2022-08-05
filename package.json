@@ -21,6 +21,10 @@
     "email": "hello@miguelarenasvillalobos.com",
     "url": "https://miguelarenasvillalobos.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MiguelArenasVillalobos/strapi-provider-upload-oci-objectstorage.git"
+  },
   "maintainers": [
     {
       "name": "Miguel Arenas Villalobos",
