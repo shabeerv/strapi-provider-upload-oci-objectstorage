@@ -25,6 +25,9 @@
     "type": "git",
     "url": "git://github.com/MiguelArenasVillalobos/strapi-provider-upload-oci-objectstorage.git"
   },
+  "bugs": {
+    "url": "https://github.com/MiguelArenasVillalobos/strapi-provider-upload-oci-objectstorage/issues"
+  },
   "maintainers": [
     {
       "name": "Miguel Arenas Villalobos",
