@@ -1,0 +1,35 @@
+{
+  "name": "strapi-provider-upload-oci-objectstorage",
+  "version": "1.0.0-v3",
+  "description": "OCI Object Storage provider for strapi upload",
+  "keywords": [
+    "strapi",
+    "provider",
+    "upload",
+    "oracle",
+    "oci"
+  ],
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "name": "Miguel Arenas Villalobos",
+    "email": "hello@miguelarenasvillalobos.com",
+    "url": "https://miguelarenasvillalobos.com"
+  },
+  "maintainers": [
+    {
+      "name": "Miguel Arenas Villalobos",
+      "email": "hello@miguelarenasvillalobos.com",
+      "url": "https://miguelarenasvillalobos.com"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "oci-sdk": "^2.37.0"
+  }
+}
