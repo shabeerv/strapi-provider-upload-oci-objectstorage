@@ -3,27 +3,28 @@
 ---
 
 ## Deprecation Warning :warning:
+### Install for v3 version of strapi
+
 Minimal or even no effort will be devoted to continue supporting v3 since strapi version 4 is already available.
 
 We recommend you to use strapi v4
 
 If you still plan to use strapi version 3 you can use the following command to install this plugin:
 ```console
-foo@bar:my-strapi-project/$ npm install @miguelarenasvillalobos/strapi-provider-upload-oci-objectstorage@1.0.0-v3
+foo@bar:my-strapi-project/$ npm install @miguelarenasvillalobos/strapi-provider-upload-oci-objectstorage@1.0.2-v3
 ```
 
 ---
 
 ## Install for v4 version of strapi
 ```console
-foo@bar:my-strapi-project/$ npm install @miguelarenasvillalobos/strapi-provider-upload-oci-objectstorage@1.0.0-v3
+foo@bar:my-strapi-project/$ npm install @miguelarenasvillalobos/strapi-provider-upload-oci-objectstorage@1.0.2-v4
 ```
 
 ## Configurations
 
 For more information on the required parameters visit this link:
-
-[https://docs.oracle.com/en-us/iaas/tools/typescript/2.37.0/classes/_common_lib_auth_auth_.simpleauthenticationdetailsprovider.html#constructor](https://docs.oracle.com/en-us/iaas/tools/typescript/2.37.0/classes/_common_lib_auth_auth_.simpleauthenticationdetailsprovider.html#constructor)
+[click here](https://docs.oracle.com/en-us/iaas/tools/typescript/2.37.0/classes/_common_lib_auth_auth_.simpleauthenticationdetailsprovider.html#constructor)
 
 
 Note:

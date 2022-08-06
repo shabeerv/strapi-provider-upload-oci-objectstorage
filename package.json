@@ -1,6 +1,6 @@
 {
   "name": "@MiguelArenasVillalobos/strapi-provider-upload-oci-objectstorage",
-  "version": "1.0.0-v3",
+  "version": "1.0.2-v3",
   "description": "OCI Object Storage provider for strapi upload",
   "keywords": [
     "strapi",
