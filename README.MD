@@ -44,6 +44,38 @@ See the [using a provider](https://strapi.io/documentation/developer-docs/latest
 
 **Example**
 
+### for Strapi V4
+
+`./config/plugins.js`
+
+```js
+module.exports = ({ env }) => ({
+  // ...
+  upload: {
+    config: {
+      provider: 'oci-objectstorage',
+      providerOptions: {
+        tenancy: env('OCI_TENANCY_ID'),
+        user: env('OCI_USER_ID'),
+        fingerprint: env('OCI_FINGERPRINT'),
+        privateKeyFilePath: env('OCI_PRIVATE_KEY_FILE_PATH'),
+        passphrase: env('OCI_PASSPHRASE'),
+        region: env('OCI_REGION'),
+        bucket: env('OCI_BUCKET')
+      },
+      actionOptions: {
+        upload: {},
+        uploadStream: {},
+        delete: {},
+      },
+    }
+  },
+  // ...
+});
+```
+
+### for Strapi V3
+
 `./config/plugins.js`
 
 ```js
