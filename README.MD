@@ -11,14 +11,14 @@ We recommend you to use strapi v4
 
 If you still plan to use strapi version 3 you can use the following command to install this plugin:
 ```console
-foo@bar:my-strapi-project/$ npm install @miguelarenasvillalobos/strapi-provider-upload-oci-objectstorage@1.0.2-v3
+foo@bar:my-strapi-project/$ npm install strapi-provider-upload-oci-objectstorage@1.0.2-v3
 ```
 
 ---
 
 ## Install for v4 version of strapi
 ```console
-foo@bar:my-strapi-project/$ npm install @miguelarenasvillalobos/strapi-provider-upload-oci-objectstorage@1.0.2-v4
+foo@bar:my-strapi-project/$ npm install strapi-provider-upload-oci-objectstorage@1.0.2-v4
 ```
 
 ## Configurations
@@ -53,7 +53,7 @@ module.exports = ({ env }) => ({
   // ...
   upload: {
     config: {
-      provider: 'oci-objectstorage',
+      provider: 'strapi-provider-upload-oci-objectstorage',
       providerOptions: {
         tenancy: env('OCI_TENANCY_ID'),
         user: env('OCI_USER_ID'),
@@ -65,8 +65,7 @@ module.exports = ({ env }) => ({
       },
       actionOptions: {
         upload: {},
-        uploadStream: {},
-        delete: {},
+        delete: {}
       },
     }
   },
