@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-oci-objectstorage",
-  "version": "1.0.3-v4",
+  "version": "1.0.4-v4",
   "description": "OCI Object Storage provider for strapi upload",
   "keywords": [
     "strapi",
