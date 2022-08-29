@@ -11,14 +11,14 @@ We recommend you to use strapi v4
 
 If you still plan to use strapi version 3 you can use the following command to install this plugin:
 ```console
-foo@bar:my-strapi-project/$ npm install strapi-provider-upload-oci-objectstorage@1.0.3-v3
+npm install strapi-provider-upload-oci-objectstorage@1.0.3-v3
 ```
 
 ---
 
 ## Install for v4 version of strapi
 ```console
-foo@bar:my-strapi-project/$ npm install strapi-provider-upload-oci-objectstorage@1.0.3-v4
+npm install strapi-provider-upload-oci-objectstorage
 ```
 
 ## Configurations
