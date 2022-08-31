@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "lib": [
+        "es2015",
+        "es2018.promise"
+      ],
+      "target": "es6",
+      "strict": true,
+      "declaration": true,
+      "esModuleInterop": true,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "baseUrl": ".",
+      "paths": {
+        "*": [
+          "node_modules/*",
+          "src/types/*"
+        ]
+      },
+      "skipLibCheck": true
+  },
+  "include": [
+      "./lib/**/*", "upload-manager",
+  ],
+  "exclude": ["node_modules"],
+}
