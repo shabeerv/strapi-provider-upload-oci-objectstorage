@@ -6,6 +6,9 @@
         "es2018.promise"
       ],
       "target": "es6",
+      "strict": true,
+      "declaration": true,
+      "esModuleInterop": true,
       "noImplicitAny": true,
       "moduleResolution": "node",
       "sourceMap": true,
@@ -19,7 +22,7 @@
       "skipLibCheck": true
   },
   "include": [
-      "upload-manager/**/*"
-, "upload-manager"  ],
+      "./lib/**/*", "upload-manager",
+  ],
   "exclude": ["node_modules"],
 }

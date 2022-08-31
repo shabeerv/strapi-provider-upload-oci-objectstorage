@@ -3,7 +3,7 @@
 package-lock.json
 node_modules
 .npmrc
-upload-manager/*.js
-upload-manager/*.js.map
+lib/upload-manager/*.js
+lib/upload-manager/*.js.map
 
 
